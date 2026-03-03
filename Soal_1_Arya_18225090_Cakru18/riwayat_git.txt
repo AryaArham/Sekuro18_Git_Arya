@@ -1,0 +1,7 @@
+* 36c10da docs: Soal 1
+*   e6d7785 fix: merge conflict v1 dan v2
+|\  
+| * aded249 docs: Versi 1
+* | b7342bc docs: Versi 2
+|/  
+* f280d0f Inisiasi Github
