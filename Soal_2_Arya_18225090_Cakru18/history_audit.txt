@@ -1,0 +1,24 @@
+    1  cd ./
+    2  ls
+    3  cd ../
+    4  ls
+    5  cd ../
+    6  ls
+    7  cd mnt
+    8  lst
+    9  ls
+   10  c
+   11  cd c
+   12  ls
+   13  wsl --list --verbose
+   14  uname -sr && whoami
+   15  sudo apt update
+   16  sudo apt install build-essential
+   17  which g++ > compiler_trace.log && g++ --version | head -n 1 >> compiler_trace.log
+   18  mkdir recovery_ops
+   19  cd recovery_ops
+   20  wget https://raw.githubusercontent.com/aryadiiptaa/YESS/refs/heads/main/system_raw.txt
+   21  head -n 1260 system_raw.txt | tail -n 11 > recovered_sector.txt
+   22  rm system_raw.txt
+   23  code .
+   24  history | tail -n 30 > history_audit.txt
